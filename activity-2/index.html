@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ITDEV 160 Activity 2</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+
+            img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="banner.png" alt="professionally done banner image"/>
+        
+        <table id="simple-table">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Nathanael Wisth</td>
+                <td><a href="mailto:wisthn@gmatc.matc.edu">Send me mail</a></td>
+            </tr>
+            <tr>
+                <td>Bob Realperson</td>
+                <td><a href="mailto:bob@fakeemail.co.uk">Attempt to send bob mail</a></td>
+            </tr>
+        </table>
+        
+        <br>
+
+        <table id="complex-table">
+            <thead>
+                <tr>
+                    <th>header 1</th>
+                    <th scope="column">header 2</th>
+                    <th scope="column">header 3</th>
+                    <th scope="column">header 4</th>
+                    <th scope="column">header 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Hello</td>
+                    <td colspan="3">hi</td>
+                    <td rowspan="3">bye</td>
+                </tr>
+                <tr>
+                    <td scope="row">greet</td>
+                    <td>hola</td>
+                    <td colspan="2">hej</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="5">&copy; Nathanael Wisth 2020</td>
+            </tfoot>
+        </table>
+
+        <br>
+
+        <footer>
+            <p><a href="../index.html">Home</a></p>
+            <p><a href="../activity-1/index.html">Activity 1</a></p>
+        </footer>
+    </body>
+</html>
