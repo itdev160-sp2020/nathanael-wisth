@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+}
+
+h1 {
+    color: rgb(51,51,51);
+    background-color: hsla(243, 100%, 50%, 0.5);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+img{
+    height: 150px;
+    text-align: center;
+}
+
+#copytext {
+    font-size: 0.8rem;
+}
+
+#copytext::first-letter {
+    font-size: 1.2rem;;
+}
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+figcaption span {
+    font-size: 1.0rem;
+}
+
+#product-description {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    line-height: 0.75in;
+}
+
+div.review {
+    padding: 0.5rem;
+    background-color: aqua;
+    font-size: 1.4rem;
+}
+
+p[class] {
+    background-color: rgba(200, 100, 100, 150);
+    font-size: 1.2rem;
+}
