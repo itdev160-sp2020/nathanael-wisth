@@ -1,0 +1,17 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 1em 2em;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#credits {
+    font-style: italic;
+    margin: 1em 0;
+}
+
+#header-image {
+    max-width: 90%;
+}
