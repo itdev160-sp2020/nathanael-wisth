@@ -1,0 +1,35 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 30px;
+    color: #333;
+    background-color: honeydew;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+#todo-list-container {
+    margin-top: 20px;
+}
+
+#active-list {
+    
+}
+
+#active-list li:hover {
+    background-color: lavender;
+}
+
+#completed-list {
+    list-style-type: none;
+    background-color: lavender;
+}
+
+#completed-list li {
+    text-decoration: line-through;
+}
