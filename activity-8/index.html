@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Bloggin'</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1 class="header-title">Bloggin'</h1>
+            <div class="header-menu">
+                <button id="new-button">New</button>
+            </div>
+        </header>
+        <main>
+            <section id="display-content">
+
+            </section>
+        </main>
+        <footer>
+            <p>text para la foot</p>
+        </footer>
+
+        <!-- Modal dialog -->
+        <div class="modal" id="modal-dialog">
+            <section>
+                <h2>Title</h2>
+                <input type="text" id="edit-title-text" />
+                <span id="edit-title-message"></span>
+            </section>
+            <section>
+                <h2>Content</h2>
+                <textarea id="edit-content-text" cols="8" rows="88"></textarea>
+                <span id="edit-content-message"></span>
+            </section>
+            <footer>
+                <button type="button" id="cancel-button">Cancel</button>
+                <button type="button" id="save-button">Save</button>
+            </footer>
+        </div>
+        <div id="modal-backdrop"></div>
+        <script src="js/scripts.js" charset="utf-8"></script>
+    </body>
+</html>
